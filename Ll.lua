@@ -18,18 +18,7 @@ task.spawn(function()
             end
         end
     end
-end)local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/memejames/elerium-v2-ui-library//main/Library", true))()
-local Window = Library:AddWindow("Canes Priv Script�� Cracked BY ZTX", {
-    main_color = Color3.fromRGB(27, 2, 252),
-    min_size = Vector2.new(600, 600),
-    can_resize = false,
-})
-
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Players = game:GetService("Players")
-local VirtualUser = game:GetService("VirtualUser")
-local LocalPlayer = Players.LocalPlayer
-
+end)
 local statFrames = {"strengthFrame", "durabilityFrame", "agilityFrame"}
 
 for _, frameName in ipairs(statFrames) do
